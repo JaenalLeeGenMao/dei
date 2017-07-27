@@ -64,12 +64,4 @@ def main():
     # close the parking state
     parking_lot.close()
 
-# Unit testing
-# Create a parking lot with 6 slot
-# print("Create a parking lot with 6 slot ", len(create_parking_slot(6)) == 6)
-# # Read the file inputs
-# print("\'Read the file inputs\' ")
-# for current in read_file("./file_inputs.txt"):
-#     print current
-
 main()
