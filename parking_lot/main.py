@@ -1,6 +1,7 @@
 from __future__ import print_function
 from parking_lot import *
 
+import sys
 
 def read_file(file_name):
 
@@ -17,7 +18,7 @@ def read_file(file_name):
 
 def main():
 
-    data = read_file("./file_inputs.txt")
+    data = read_file(sys.argv[1])
     parking_slot = []
     parking_lot = Parking_lot()
 
