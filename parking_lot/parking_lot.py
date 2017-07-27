@@ -187,6 +187,7 @@ class Parking_lot:
 
             print (", ".join(newString))
             stdout.write(", ".join(newString))
+            return "Found"
 
     def close(self):
 
